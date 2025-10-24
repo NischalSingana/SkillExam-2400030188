@@ -1,0 +1,19 @@
+/* Minimal global styles for the demo app */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 1rem;
+  background: #f7f7fb;
+  color: #111;
+}
+
+h1, h2 { margin: 0 0 1rem 0; }
+
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+img { max-width: 64px; max-height: 64px; object-fit: contain; }
